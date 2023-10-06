@@ -1,0 +1,24 @@
+{
+  "main": [
+    {
+      "name": "facebook",
+      "icon": "fab fa-facebook",
+      "link": "https://www.facebook.com/profile.php?id=61551713002784"
+    },
+    {
+      "name": "twitter",
+      "icon": "fab fa-twitter",
+      "link": "https://twitter.com/picnepal"
+    },
+    {
+      "name": "Tiktok",
+      "icon": "fab fa-tiktok",
+      "link": "https://www.tiktok.com/"
+    },
+    {
+      "name": "YouTube",
+      "icon": "fab fa-youtube",
+      "link": "https://www.youtube.com/"
+    }
+  ]
+}

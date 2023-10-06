@@ -1,0 +1,127 @@
+############# English navigation ##############
+
+[[main]]
+ name = "ToxData"
+ url = "toxdata"
+ weight = 10
+
+[[main]]
+ name = "About us"
+ weight = 20
+ hasChildren = true
+
+[[main]]
+ name = "Introduction"
+ parent = "About us"
+ url = "about/introduction"
+ weight = 10
+
+[[main]]
+ name = "Our team"
+ parent = "About us"
+ url = "team"
+ weight = 20
+
+[[main]]
+ name = "Partners"
+ parent = "About us"
+ url = "about/partners"
+ weight = 30
+
+[[main]]
+ name = "Advisory board"
+ parent = "About us"
+ url = "about/advisors"
+ weight = 40
+
+[[main]]
+ name = "Message from the director"
+ parent = "About us"
+ url = "about/message-from-director"
+ weight = 50
+
+[[main]]
+ name = "GIS"
+ url = "gis"
+ weight = 50
+
+[[main]]
+ name = "Activities"
+ weight = 60
+ hasChildren = true
+
+[[main]]
+ name = "Trainings/CME"
+ parent = "Activities"
+ url = "activities/trainings"
+ weight = 10
+
+[[main]]
+ name = "Guest Lectures"
+ parent = "Activities"
+ url = "activities/lectures"
+ weight = 20
+
+[[main]]
+ name = "Community Engagement"
+ parent = "Activities"
+ url = "activities/community-engagement"
+ weight = 30
+
+[[main]]
+ name = "Conferences"
+ parent = "Activities"
+ url = "activities/conferences"
+ weight = 40
+
+[[main]]
+ name = "Research and Publications"
+ parent = "Activities"
+ url = "activities/research"
+ weight = 50
+
+[[main]]
+ name = "Information"
+ weight = 70
+ hasChildren = true
+
+[[main]]
+ name = "Service hours"
+ parent = "Information"
+ url = "info/hours"
+ weight = 10
+
+[[main]]
+ name = "IEC materials"
+ parent = "Information"
+ url = "info/iec"
+ weight = 20
+
+[[main]]
+ name = "Posters"
+ parent = "Information"
+ url = "info/posters"
+ weight = 30
+
+[[main]]
+ name = "News"
+ parent = "Information"
+ url = "info/news"
+ weight = 40
+
+[[main]]
+ name = "Blogs"
+ url = "blog"
+ weight = 80
+
+[[main]]
+ name = "FAQ"
+ url = "faq"
+ weight = 90
+
+[[main]]
+ name = "Contact"
+ url = "contact"
+ weight = 100
+
+
