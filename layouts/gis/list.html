@@ -11,7 +11,7 @@
 
 <section class="m-3">
   <div class="container">
-    <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+    <script src="//cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
     <div id="map" class="w-full h-screen m-3"></div>
     
     <script>
@@ -24,7 +24,7 @@
         var map = new L.map('map', mapOptions);
     
         // Creating a Layer object
-        var layer = new L.TileLayer('http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
+        var layer = new L.TileLayer('//{s}.tile.openstreetmap.org/{z}/{x}/{y}.png');
     
         // Adding layer to the map
         map.addLayer(layer);
