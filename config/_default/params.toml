@@ -59,7 +59,7 @@ show_categories = true
 keywords = ["poison", "emergency"]
 description = "Poision information center"
 author = "poision"
-image = "images/og-image.png"
+image = "images/primary.png"
 
 
 # site verifications
