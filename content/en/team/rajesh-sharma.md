@@ -1,6 +1,6 @@
 ---
 title: Dr. Rajesh Sharma
-image: /images/team/rajesh.jpg
+image: images/team/rajesh.jpg
 weight: 4
 post: 
 ---  

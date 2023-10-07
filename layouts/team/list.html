@@ -7,7 +7,7 @@
     <div class="columns-1 md:columns-4">
       {{ range .RegularPages }}
       <div class="m-3">
-        <img class="object-contain w-full md:w-80 md:h-96" src="{{ .Params.image }}" />
+        <img class="object-contain w-full md:w-80 md:h-96" src="{{ .Params.image | relURL }}" />
         <h1 href="{{ .Permalink }}" class="text-dark dark:text-darkmode-dark block text-xl">
           {{ .Title }}
         </h1>{{ .Content }}

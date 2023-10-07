@@ -1,6 +1,6 @@
 ---
 title: Dr. Ramu Kharel
-image: /images/team/ramu.jpg
+image: images/team/ramu.jpg
 weight: 1
 post: Director
 ---  
